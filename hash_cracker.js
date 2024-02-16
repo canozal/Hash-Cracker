@@ -25,7 +25,7 @@ function readWordlist(filename) {
 }
 
 // Cracking the given hash with different algorithms
-const algorithms = ['md5', 'sha1', 'sha256', 'sha512', 'ripemd160', 'whirlpool', 'sha3-256', 'sha3-512', 'blake2b512', 'blake2s256']; // List of algorithms to try
+const algorithms = ['md5', 'sha1', 'sha256', 'sha512', 'ripemd160', 'sha3-256', 'sha3-512', 'blake2b512', 'blake2s256']; // List of algorithms to try
 const wordlist = readWordlist('10-million-password-list-top-1000000.txt');
 
 let crackedPassword = null;
